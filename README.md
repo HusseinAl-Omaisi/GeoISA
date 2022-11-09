@@ -9,7 +9,7 @@ We also share the source code of the previous works that were selected as benchm
   (reference: L. Zhang, A. Afanasyev, J. Burke, V. Jacobson, K. Claffy, P. Crowley, C. Papadopoulos, L. Wang, B. Zhang, Named data networking, ACM SIGCOMM    Computer Communication Review. 44 (2014) 66–73. https://doi.org/10.1145/2656877.2656887.)
 2. Vanilla VNDN 
   (reference: G. Grassi, D. Pesavento, G. Pau, R. Vuyyuru, R. Wakikawa, L. Zhang, VANET via Named Data Networking, in: 2014 IEEE Conference on Computer        Communications Workshops (INFOCOM WKSHPS), IEEE, 2014: pp. 410–415. https://doi.org/10.1109/INFCOMW.2014.6849267.)
-3. CAVDN scheme 
+3. CA-VNDN scheme 
   (reference: Y. Li, X. Shi, A. Lindgren, Z. Hu, P. Zhang, D. Jin, Y. Zhou, Context-Aware Data Dissemination for ICN-Based Vehicular Ad Hoc                    Networks,Information. 9 (2018) 263. https://doi.org/10.3390/info9110263.)
 4. Sweet forwarding spot (SFS) scheme 
   (reference 1: 
@@ -20,3 +20,39 @@ The developers of GeoISA are open to inquiries about what is in this repository 
 
 To whom it may find the source code published in this repository is useful to their reseach work, please indicate to that in your published research work by referring to the following reference:
 The data will be updated later.
+
+
+How to use
+
+Requirement
+1. ndnSIM 2.8
+2. SUMO 1.8.0
+
+
+BNF Folder
+This folder contains BNF simulation work.
+You can download BNF folder, then run the main application (BNF-App.cc). To make any wanted modification such as simulation run time, number of vehicles,.. etc, you can do that in BNF-App.cc.
+The main application is in the scratch folder.
+
+SUMO Folder
+It contains the sumo and TCL files used in the simulation
+
+Vanilla VNDN Folder
+This folder contains the main files to run the Vanilla VNDN algorithm. just copy the files to the right place in NS-3/ndnSIM folders.
+
+
+SFS Folder
+This folder contains the main files to run the SFS algorithm. just copy the files to the right place in NS-3/ndnSIM folders.
+
+CA-VNDN Folder
+This folder contains the main files to run the CA-VNDN algorithm. just copy the files to the right place in NS-3/ndnSIM folders.
+
+GeoISA Folder
+This folder contains the main files to run the GeoISA algorithm. just copy the files to the right place in NS-3/ndnSIM folders.
+
+
+
+
+
+
+
