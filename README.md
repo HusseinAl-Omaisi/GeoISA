@@ -22,37 +22,29 @@ To whom it may find the source code published in this repository is useful to th
 The data will be updated later.
 
 
-How to use
+<b>How to use</b>
 
-Requirement
+<b>Requirement</b>
 1. ndnSIM 2.8
 2. SUMO 1.8.0
 
 
-BNF Folder
+<b>BNF Folder</b> 
 This folder contains BNF simulation work.
 You can download BNF folder, then run the main application (BNF-App.cc). To make any wanted modification such as simulation run time, number of vehicles,.. etc, you can do that in BNF-App.cc.
 The main application is in the scratch folder.
 
-SUMO Folder
+<b>SUMO Folder</b> 
 It contains the sumo and TCL files used in the simulation
 
-Vanilla VNDN Folder
+<b>Vanilla VNDN Folder</b> 
 This folder contains the main files to run the Vanilla VNDN algorithm. just copy the files to the right place in NS-3/ndnSIM folders.
 
-
-SFS Folder
+<b>SFS Folder</b> 
 This folder contains the main files to run the SFS algorithm. just copy the files to the right place in NS-3/ndnSIM folders.
 
-CA-VNDN Folder
-This folder contains the main files to run the CA-VNDN algorithm. just copy the files to the right place in NS-3/ndnSIM folders.
+<b>CA-VNDN Folder</b> This folder contains the main files to run the CA-VNDN algorithm. just copy the files to the right place in NS-3/ndnSIM folders.
 
-GeoISA Folder
-This folder contains the main files to run the GeoISA algorithm. just copy the files to the right place in NS-3/ndnSIM folders.
-
-
-
-
-
-
-
+<b>GeoISA Folder</b> 
+This folder contains the main files to run the GeoISA algorithm. Just copy the files to the right place in NS-3/ndnSIM folders.
+GeoISA uses TraCI tool (https://sumo.dlr.de/docs/TraCI.html) to make online interaction between network(NS-3/ndnSIM) and road traffic (SUMO). However, in the current published GeoISA, TraCI is not used. GeoISA with TraCI while be publish later.So, we use roads of same number of lanes.
