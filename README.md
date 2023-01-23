@@ -1,7 +1,7 @@
 # GeoISA
 <b>Cite the code: </b> <br/>
 [![DOI](https://zenodo.org/badge/561980196.svg)](https://zenodo.org/badge/latestdoi/561980196)
-<br />
+<br /> <br />
 The main part of the source code for the GeoISA protocol for content discovery in VNDN and the related selected benchmarked solutions.
 
 <br /> In this public repository, we'd like to share the source code for the new protocol for content discovery in named data vehicular networks, which is called GeoISA.
@@ -22,7 +22,7 @@ The main part of the source code for the GeoISA protocol for content discovery i
 The <a href="mailto:p92824@siswa.ukm.edu.my">developers</a> of GeoISA are open to inquiries about what is in this repository as further details of the code, or any future research work.
 
 To whom it may find the source code published in this repository is useful to their reseach work, please indicate to that in your published research work by referring to the following reference:
-The data will be updated later.
+<br> <b>GeoISA: A New Road-topology-assisted Geo-based Content Discovery Scheme for Vehicular Named Data Networking	</b>
 
 
 <b>How to use</b>
